@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    background:#ff6b00;
+    background-repeat: no-repeat;
+    font-family: 'Anton', sans-serif;
+    height:1000px;
+}
+
+h3{
+    border:1px solid ;
+    width:200px;
+    height:50px;
+    margin:10px;
+    padding:10px;
+}
+
+#snapshot_btn{
+    width:100px;
+    height:40px;
+    transition: transform 1s;
+    background:none;
+    border:1px solid;
+}
+
+#snapshot_btn:hover{
+    transform:rotateZ(180deg);
+}
+
+#canvas{
+   border:1px solid;
+}
+
